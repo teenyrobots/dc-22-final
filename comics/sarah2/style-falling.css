@@ -93,12 +93,14 @@ body {
 
 .toppage {
     position: absolute;
+    bottom: 0;
     z-index: 1000;
 }
 
 .bottompage {
-    position: absolute;
+/*    position: absolute;*/
     z-index: 500;
+/*    bottom: 0;*/
 }
 
 .fallers3 {
@@ -123,7 +125,8 @@ body {
 
 .backgroundparent3 {
     position: relative;
-    background-color: rgba(69, 123, 176, 1);}
+    background-color: rgba(69, 123, 176, 1);
+}
   
 
 img {
